@@ -4,41 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+    </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <section>
       <nav>
-        <img src="./Assets/FES.svg" alt="" />
+        <img src="./Assets/FES.svg" class="logo" alt="" />
         <ul>
           <li><a href="#about">about</a></li>
           <li><a href="#discord">discord</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
-        <header>
-          <div>Best place to lean frontend</div>
-          <p>Go from absolute beginer to pro with a simplified process</p>
-          <button>Start now</button>
+      </nav>
+      <header>
+        <div class="row">
+          <div class="wrapper">
+            <div class="subheader">Best place to learn frontend</div>
+            <p class="sell">
+              Go from absolute beginer to pro with a simplified process
+            </p>
+            <button>Start now</button>
+          </div>
           <figure>
             <img src="./Assets/laptop.png" alt="Home page image" />
           </figure>
-        </header>
-      </nav>
+        </div>
+      </header>
     </section>
     <main>
       <section id="about">
         <h2>about</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim dolores
-          omnis iusto consequuntur laborum nostrum modi aspernatur eum pariatur
-          explicabo.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolor
-          illum neque, esse obcaecati vero sit reiciendis a cumque deserunt.
-        </p>
-        <figure>
-          <img src="./Assets/about.jpg" alt="" />
-        </figure>
+        <div class="section__description">
+          <div class="section__about--words">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+              dolores omnis iusto consequuntur laborum nostrum modi aspernatur
+              eum pariatur explicabo.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+              dolor illum neque, esse obcaecati vero sit reiciendis a cumque
+              deserunt.
+            </p>
+          </div>
+          <figure class="about__figure--wrapper">
+            <img src="./Assets/about.jpg" alt="" />
+          </figure>
+        </div>
       </section>
       <section id="discord">
         <h2>discord</h2>
