@@ -37,58 +37,67 @@
     <main>
       <section id="about">
         <h2>about</h2>
-        <div class="section__description">
-          <div class="section__about--words">
-            <p>
+        <div class="row"></div>
+          <div class="section__description">
+            <div class="section__about--words">
+              <p class="section__description--para">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
               dolores omnis iusto consequuntur laborum nostrum modi aspernatur
               eum pariatur explicabo.
-            </p>
-            <p>
+              </p>
+              <p class="section__description--para">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
               dolor illum neque, esse obcaecati vero sit reiciendis a cumque
               deserunt.
-            </p>
+              </p>
+            </div>
+            <figure class="about__figure--wrapper">
+              <img src="./Assets/about.jpg" alt="" />
+            </figure>
           </div>
-          <figure class="about__figure--wrapper">
-            <img src="./Assets/about.jpg" alt="" />
-          </figure>
         </div>
       </section>
       <section id="discord">
         <h2>discord</h2>
-        <figure>
-          <img src="./Assets/discord.png" alt="" />
-        </figure>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vel
-          molestias blanditiis cumque suscipit minima minus, corporis quo nulla
-          aliquam.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          aperiam hic architecto harum culpa quo similique velit animi cumque
-          ipsa.
-        </p>
+        <div class="row">
+          <div class="section__description">
+            <figure class="about__figure--wrapper">
+              <img src="./Assets/discord.png" alt="" />
+            </figure>
+            <div class="section__about--words">
+             <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              vel molestias blanditiis cumque suscipit minima minus, corporis
+              quo nulla aliquam.
+             </p>
+              <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              aperiam hic architecto harum culpa quo similique velit animi
+              cumque ipsa.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="contact">
         <h2>contact</h2>
         <form action="">
-          <label for="Email">Email</label>
-          <input type="text" placeholder="3866@lsijax.com" />
-          <label for="Message">
-            <textarea name="Message" id=""></textarea>
+          <span>Email</span>
+          <input type="email" placeholder="3866@lsijax.com" />
+          <span>Message</span>
+            <textarea name="Message" id="">Your message here</textarea>
           </label>
+          <button>Contact Us</button>
         </form>
       </section>
     </main>
     <footer>
-      <img src="./Assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">discord</a>
-        <a href="#contact">Contact</a>
-        <a href="">Courses</a>
+      <img class="footer__logo" src="./Assets/FES.svg" alt="">
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="">Courses</a>
       </div>
       <p>copyright</p>
     </footer>
