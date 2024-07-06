@@ -143,3 +143,63 @@ footer {
 .footer__link {
     padding: 0px 16px;
 }
+
+@media (max-width: 728px) {
+  .row {
+    flex-direction: column;
+  }
+  .subheader {
+    font-size: 48px;
+    text-align: center;
+    margin: 0 px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapper {
+    margin: 0px;
+  }
+  .home__figure {
+    max-height: 50vh;
+    max-width: 50vh;
+  }
+  .start-now {
+    max-width: 240px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+  ul {
+    display: none;
+  }
+  .section__description {
+    flex-direction: column;
+  }
+  .section__about--words {
+    width: 100%;
+  }
+  .about__figure--wrapper {
+    width: 100%;
+  }
+  #discord .section__description{
+    flex-direction: column-reverse;
+  }
+  .footer {
+    padding: 48px 24px;
+  }
+  .form__bottom {
+    width: 80vw;
+  }
+  footer {
+    padding: 48px 24px;
+  }
+  .footer__link {
+    padding: 0% 4px;
+    font-size: 18px;
+  }
+  .footer__links {
+    margin-bottom: 24px;
+  }
+  }
